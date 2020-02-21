@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "virgo 01";
+  src: url('fonts/virgo.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "product sans";
+  src: url(fonts/productsans-regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "product sans light";
+  src: url(fonts/ProductSans-Light.ttf) format('truetype');
+}
+
+.required {
+  color: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body header {
+  text-align: right;
+  overflow: hidden;
+  height: 80px;
+  left: 0;
+  right: 0;
+  top: 0px;
+  z-index: 3;
+  border-bottom: thin solid #eff0f0;
+  background-color: #ffca69;
+}
+
+body header h3 {
+  font-family: "product sans";
+  color: #121212;
+  margin-top: 0;
+  line-height: 80px;
+  text-align: left;
+  font-size: 2em;
+  text-transform: none;
+}
+
+body header .right.columns {
+  font-family: 'Europa';
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  color: #666;
+  position: relative;
+  top: 1px;
+  margin-top: 0;
+  font-weight: 700;
+}
+
+header {
+  margin-bottom: 3em;
+}
+
+.spacing {
+  padding-bottom: 2em;
+}
+
+input, textarea {
+  font-family: 'Europa';
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #996515;
+  outline: 1px solid slategrey;
+  border-radius: 25px;
+}
+
+::selection {
+  background: #1c1c1c;
+  color: white;
+  padding: .5em;
+}
+
+button {
+  border-color: #aa7e2b;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #aa7e2b;
+  border-color: #aa7e2b;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding-top: 1em;
+  border-top: thin solid #eff0f0;
+}
+
+@media (max-width: 700px) {
+  .right {
+    display: none;
+  }
+}
+
+.question {
+  margin-bottom: 2.4em;
+  margin-left: 1em;
+}
+
+.question h5 {
+  font-size: 1.2em
+}
+
+.babyy {
+  margin-bottom: 2.4em;
+}
